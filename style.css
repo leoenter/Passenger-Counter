@@ -1,0 +1,77 @@
+html {
+	box-sizing: border-box;
+}
+
+*,*:before,*:after{
+box-sizing: inherit;
+
+}
+body {
+	background: lightgray;
+	font-family: sans-serif monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+.container {
+	width: 400px;
+	height: 400px;
+	border: 2px solid transparent;
+	display: flex;
+   flex-direction: column;
+  gap: 1rem;
+   align-items: center;
+   background: url('subway.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  }
+  h1 {
+  	background: white;
+  	opacity: .7;
+  	padding: 1rem;
+  }
+  #entering {
+  	font-size: 2rem;
+  }
+  
+  #increment-btn {
+     padding: 10px 0px 10px 0px;
+  	width: 150px;
+  	border-radius: 8px;
+  	cursor: pointer;
+  	border: none;
+  	font-weight: bold;
+  	background: rosybrown;
+  	color: white;
+
+  }
+
+  #save-btn {
+     padding: 10px 0px 10px 0px;
+  	width: 150px;
+  	border-radius: 8px;
+  	cursor: pointer;
+  	border: none;
+  	font-weight: bold;
+  	background: rosybrown;
+  	color: white;
+
+  }
+  #increment-btn:hover {
+  	background: lightblue;
+  	border:1px solid rosybrown;
+  }
+
+  #save-btn:hover {
+  	background: lightblue;
+  	border:1px solid rosybrown;
+  }
+  #save-p {
+  	background: white;
+  	padding: 2px;
+  	font-weight: bold;
+  	color: black;
+  }
